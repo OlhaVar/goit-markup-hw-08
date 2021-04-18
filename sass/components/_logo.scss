@@ -1,0 +1,39 @@
+.page-header_logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  @media screen and(max-width: 1199px) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: var(--title-text-color);
+}
+
+.footer_logo {
+  display: inline-block;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.ft-studio {
+  color: var(--white-color);
+}
